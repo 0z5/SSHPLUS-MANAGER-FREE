@@ -1,23 +1,20 @@
-﻿⚠️ Estado del Proyecto: Descontinuado ⚠️
+⚠️ **Proje Durumu: Durduruldu** ⚠️
 
-Este proyecto ha sido descontinuado y ya no recibirá actualizaciones o soporte adicional. Aunque puedes seguir utilizando el código disponible, recomendamos explorar otras alternativas activas y actualizadas para manejar tus servidores o VPS.
+Bu proje artık desteklenmeyecek veya güncellenmeyecektir. Mevcut kodu kullanmaya devam edebilirsiniz, ancak sunucu veya VPS yönetimi için aktif ve güncel alternatiflere yönelmeniz önerilir.
 
-* SSHPLUS MANAGER (Final Versión 38) :octocat:
-* Fecha de Última Actualización: 09/08/2021
+**SSHPLUS MANAGER (Son Sürüm 38)**  
+**Son Güncelleme Tarihi:** 09/08/2021  
 
-💡 Nota: Si tienes alguna pregunta o necesitas ayuda, te sugerimos revisar los foros comunitarios o consultar otros repositorios en GitHub que ofrezcan herramientas similares.
+💡 **Not:** Sorularınız veya yardıma ihtiyacınız varsa, topluluk forumlarına göz atabilir ya da benzer araçlar sunan diğer GitHub depolarını inceleyebilirsiniz.
 
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/SSHPLUS_MANAGER.png)
 
 # SSHPlus Manager :octocat:
 
-## :information_source: Descripción
-Es un script que ofrece un conjunto de características y herramientas diseñadas para 
-proporcionar una extrema facilidad de uso en servidores Linux con un enfoque en el uso de 
-VPN. Viene con una interfaz amigable que proporciona información detallada sobre el servidor y 
-sus usuarios.
+## :information_source: Açıklama
+Linux sunucularında VPN kullanımı odaklı bir dizi özellik ve araç sunarak kullanım kolaylığı sağlayan bir script'tir. Kullanıcı dostu arayüzü sayesinde, sunucu ve kullanıcılar hakkında detaylı bilgiler sunar.
 
-## :computer: Instalación
+## :computer: Kurulum
 ```bash
 apt-get update -y
 apt-get full-upgrade -y
@@ -26,79 +23,67 @@ chmod +x Plus*
 ./Plus
 ```
 
-## :computer: Instalación en una Línea
+## :computer: Tek Satırlık Kurulum
 ```bash
 apt-get update -y; apt-get full-upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Plus; chmod +x Plus* && ./Plus
 ```
 
-:memo: Las dependencias faltantes se instalarán automáticamente durante el proceso.
+:memo: Eksik bağımlılıklar kurulum sırasında otomatik olarak yüklenecektir.
 
-## :rocket: Modo de Uso
-
-Ejecute el script simplemente escribiendo `menu` en tu terminal y presionando Enter.
+## :rocket: Kullanım
+Script'i çalıştırmak için terminale `menu` yazıp Enter tuşuna basmanız yeterlidir.
 
 ```bash
 menu
 ```
 
-## :bookmark_tabs: Notas
-SSHPLUS MANAGER ofrece las siguientes características:
+## :bookmark_tabs: Özellikler
+SSHPLUS MANAGER aşağıdaki özellikleri sunar:
+- **SSH Bağlantıları:** SSH bağlantılarını yapılandırma ve yönetme.
+- **VPN Bağlantıları:** Dropbear, SSLTunnel4, OpenVPN gibi bağlantıları yönetme.
+- **Kullanıcı Yönetimi:** Kullanıcı oluşturma ve silme.
+- **Bağlantı İzleme:** Çevrimiçi bağlantıları izleme.
+- **Sistem ve Kullanıcı Bilgileri:** Detaylı sistem ve kullanıcı bilgileri sunma.
+- **Güvenlik Araçları:** Analiz araçlarına erişim.
+- **Sistem Optimizasyonu:** Temizlik ve optimizasyon işlemleri.
 
-- Conexiones SSH: Configura y administra conexiones SSH.
-- Conexiones VPN: Administra conexiones Dropbear, SSLTunnel4, OpenVPN, entre otras.
-- Gestión de Usuarios: Crea y elimina usuarios.
-- Monitoreo de Conexiones: Observa el estado y la actividad de las conexiones en línea.
-- Detalles del Sistema y Usuarios: Proporciona información detallada sobre el sistema y los usuarios.
-- Herramientas de Escaneo y Búsqueda: Accede a herramientas de análisis de seguridad.
-- Optimización del Sistema: Realiza tareas de optimización y limpieza del sistema.
+## :hammer_and_wrench: Gereksinimler 
+- **İşletim Sistemi:** Linux (Ubuntu veya Debian)
+- **Önerilen Sürümler:** Ubuntu 18.04 Server x86_64 / Ubuntu 20.04 Server x86_64 / Debian 9 Server x86_64
+- **Dağıtım:** Yeni veya sıfırlanmış bir dağıtım önerilir.
+- **Varsayılan Dil:** Türkçe (Orjinal dil: Portekizce)
 
-## :star2: Características 
+## :books: Opsiyonel Araçlar
+- Script'i yeniden kurmak için terminalde şu komutu çalıştırın: `sshplus`
+- ADM formatında uyarlanmış menüyü kullanmak için: `menuV3`
+- Uyarlanmış menüyü kullanmak için: `menuV2`
+- Orijinal menüye dönmek için: `menuV1`
 
-- Automatización: Simplifica la configuración y administración de servidores.
-- Eficiencia: Ahorra tiempo con una interfaz intuitiva y comandos simplificados.
-- Organización: Facilita la gestión estructurada del servidor y sus servicios.
+## :file_folder: Yararlı Projeler 
+- [SSHPLUS Manager Key Üretici](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/Generador)
+- [Resmi Panel Revenda SSH Script (Sürüm 20)](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/Panel_v20)
+- [Multi-Installer Plus](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/Multi-Instalador)
+- [Panel Revenda SSH (Farklı Sürümler)](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/Panel_Web)
+- [Tcp-Tweaker-1.0 (Tcp-Speed)](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/TCP-Speed)
 
-## :hammer_and_wrench: Requisitos 
+## :inbox_tray: Kaynak Kod
+- [Kaynak Kodu İndir](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Source-Code-SSHPlus.zip)
 
-- Sistema Operativo: Linux (Ubuntu o Debian)
-- Versiones Recomendadas: Ubuntu 18.04 Server x86_64 / Ubuntu 20.04 Server x86_64 / Debian 9 Server x86_64
-- Distribución: Se sugiere utilizar una distribución reciente o recién formateada.
-- Idioma Predeterminado: Portugués
+## :open_file_folder: Depo Yapısı
+| **İkon**          | **Ad**         | **Açıklama**                              |
+|--------------------|----------------|-------------------------------------------|
+| :file_folder:      | Imagenes       | Görsellerin yer aldığı klasör             |
+| :file_folder:      | Install        | Kurulum scriptlerinin yer aldığı klasör   |
+| :file_folder:      | Modulos        | Ek modüllerin yer aldığı klasör           |
+| :file_folder:      | _$_Version     | Sürüm dosyalarının yer aldığı klasör      |
+| :page_facing_up:   | .gitattributes | Git yapılandırma dosyası                  |
+| :package:          | Plus           | Bash script yükleyicisi                   |
+| :book:             | README.md      | Ana dokümantasyon dosyası                 |
+| :page_facing_up:   | versao         | Proje sürüm dosyası                       |
 
-## :books: Utilidades Opcionales
+## 📜 Feragatname
+Bu belge, yalnızca bilgi sağlamak amacıyla tarafımca çevrilmiştir. Orijinal içerik ve kaynak kod, projenin asıl sahibi olan [SSHPLUS Manager GitHub Deposu](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE) üzerinden erişilebilir.  
 
-- Reinstalar el Script: Ejecutar en consola el comando `sshplus` [Ver Imagen](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/Reinstall_SSHPlus-Manager.png)
-- Skin Menú Adaptado Formato ADM: Ejecutar en consola el comando `menuV3` [Ver Imagen](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/Update_menuV3.png)
-- Skin Menú Adaptado: Ejecutar en consola el comando `menuV2` [Ver Imagen](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/Update_menuV2.png)
-- Restablecer el Menú Original: Ejecutar en consola el comando `menuV1` [Ver Imagen](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/SSHPLUS_MANAGER.png)
+**Garantisizdir:** Bu çeviri "olduğu gibi" sağlanmıştır ve herhangi bir garanti, taahhüt veya doğruluk iddiası içermez. Orijinal proje ve bu çevirinin kullanımı nedeniyle oluşabilecek hata, veri kaybı veya diğer sorunlardan tamamen kullanıcı sorumludur.  
 
-## :file_folder: Proyectos útiles 
-
-- Generador de Key SSHPLUS Manager: [Ver Repositorio](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/Generador)
-- Script Oficial Panel Revenda SSH (Versión 20): [Ver Repositorio](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/Panel_v20)
-- Multi-Instalador Plus: [Ver Repositorio](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/Multi-Instalador)
-- Panel Revenda SSH (Versiones): [Ver Repositorio](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/Panel_Web)
-- Tcp-Tweaker-1.0 (Tcp-Speed): [Ver Repositorio](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/tree/master/Install/TCP-Speed)
-
-## :inbox_tray: Descarga del Código Fuente
-
-- Código Fuente: [Descargar](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Source-Code-SSHPlus.zip)
-
-## :open_file_folder: Estructura del Repositorio
-
-| Icono            | Nombre         | Descripción                               |
-|------------------|----------------|-------------------------------------------|
-| :file_folder:    | Imagenes       | Carpeta para imágenes                     |
-| :file_folder:    | Install        | Carpeta para scripts de instalación       |
-| :file_folder:    | Modulos        | Carpeta para módulos adicionales          |
-| :file_folder:    | _$_Version     | Carpeta para archivos de versión          |
-| :page_facing_up: | .gitattributes | Archivo para configuración de Git         |
-| :package:        | Plus           | Instalador en Bash                        |
-| :book:           | README.md      | Archivo de documentación principal        |
-| :page_facing_up: | versao         | Archivo de versión del proyecto           |
-
-## :email: Contacto 
-* :busts_in_silhouette: **@crazy_vpn**: [Telegram](https://t.me/crazy_vpn) - Desarrollador SSHPlus Manager
-* :busts_in_silhouette: **illuminati Dev Team**: [Grupo](https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ) - Actualización de versión
-
-☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
+**Hukuki Feragatname:** Bu proje veya çevirisi nedeniyle oluşabilecek yasal sorunlar, zararlar veya anlaşmazlıklardan sorumlu değilim. Projeyi kullanmadan önce ilgili yasa ve lisansları dikkatlice incelemeniz gerekmektedir.  
