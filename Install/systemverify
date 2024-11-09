@@ -1,30 +1,30 @@
 #!/bin/bash
 
-## sshd back
+## sshd yedeği
 cp /etc/ssh/sshd_config /etc/ssh/sshd_back_$RANDOM > /dev/null 2>&1
 
-## Acceso Rapido
+## Hızlı Erişim
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
 
-## Version
+## Versiyon
 rm -rf $HOME/versao* > /dev/null 2>&1 
 wget $HOME/versao https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/versao > /dev/null 2>&1
 
-## Reinstalar
+## Yeniden Yükle
 echo "apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Plus; chmod +x Plus; ./Plus" > /bin/sshplus > /dev/null 2>&1
 chmod +x /bin/sshplus > /dev/null 2>&1
 
-## Menu ADM
+## ADM Menüsü
 wget -O /bin/menuV3 https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Skin_Plus/menuV3/Install > /dev/null 2>&1
 chmod +x /bin/menuV3 > /dev/null 2>&1
 
-## Menu adaptado
+## Adapted Menu (Menü uyarlanmış)
 wget -O /bin/menuV2 https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Skin_Plus/menuV2/Install > /dev/null 2>&1
 chmod +x /bin/menuV2 > /dev/null 2>&1
 
-## Menu orginal
+## Orijinal Menü
 wget -O /bin/menuV1 https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Install/Skin_Plus/menuV1/Install > /dev/null 2>&1
 chmod +x /bin/menuV1 > /dev/null 2>&1
 
-## Systemverify
+## Sistem Doğrulama
 rm -rf $HOME/systemverify* > /dev/null 2>&1
