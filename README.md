@@ -18,14 +18,14 @@ Linux sunucularında VPN kullanımı odaklı bir dizi özellik ve araç sunarak 
 ```bash
 apt-get update -y
 apt-get full-upgrade -y
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Plus
+wget https://raw.githubusercontent.com/0z5/SSHPLUS-MANAGER-FREE/master/Plus
 chmod +x Plus*
 ./Plus
 ```
 
 ## :computer: Tek Satırlık Kurulum
 ```bash
-apt-get update -y; apt-get full-upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/master/Plus; chmod +x Plus* && ./Plus
+apt-get update -y; apt-get full-upgrade -y; wget https://raw.githubusercontent.com/0z5/SSHPLUS-MANAGER-FREE/master/Plus; chmod +x Plus* && ./Plus
 ```
 
 :memo: Eksik bağımlılıklar kurulum sırasında otomatik olarak yüklenecektir.
